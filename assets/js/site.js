@@ -9,7 +9,9 @@ function readerDynamic(){
         const characters = document.createElement("section")
         
         const characterIMG = document.createElement("img")
-        characterIMG.src = `assets/img/tekkendefenseimgs/${entry.replaceAll(" ", "-")}.png`;
+        characterIMG.id = entry.replaceAll(" ", "-");
+        characterIMG.className = "character-image";
+        characterIMG.src = "assets/img/tekkendefenseimgs/" + entry.replaceAll(" ", "-") + ".png";
 
         characters.appendChild(characterIMG);
         listSection.appendChild(characters);

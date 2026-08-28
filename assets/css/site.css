@@ -1,4 +1,40 @@
+*{
+    margin: 0;
+    gap: 0;
+    margin: 0;
+}
 img{
-    max-width: 100px;
     max-height: 100px;
+}
+#list-s{
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(8, 1fr);
+    justify-content: center;
+}
+#list-s > section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#list-s > section > img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #34445a;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 35% 50%;
+}
+
+#list-s > section > img#anna,
+#list-s > section > img#armor-king{
+    object-position: 45%;
+}
+#list-s > section > img#paul{
+    object-position: 40%;
+}
+#list-s > section > img#steve,
+#list-s > section > img#leo,
+#list-s > section > img#law {
+    object-position: 20%;
 }
