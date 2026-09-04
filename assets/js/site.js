@@ -2,7 +2,7 @@ let myDataArray = ["alisa", "anna", "armor king", "asuka", "azucena", "bob", "br
 let options = ["crouch", "sidestep left", "sidewalk left", "sidestep right", "sidewalk right", "fuzzy duck", "interupt", "high crush", "low crush", "stand", "ssl fuzzy", "ssr fuzzy", "sidestepable (tbd)", "low parry"]
 let punish = ["10f", "11f", "12f", "13f", "14f", "15f", "16f/launch"]
 let throws = ["break: 1", "break: 2", "break: 1+2"]
-
+//delete
 function readerDynamic(){
     const listSection = document.getElementById("list-s");
     listSection.innerHTML = "";
